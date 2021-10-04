@@ -1,0 +1,39 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'times New Roman', Times, serif;
+}
+
+header .container{
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-size: 'Arial Black', Times;
+    font-size: 3rem;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin: 0 0.4rem;
+}
+
+header nav a:hover{
+    color: #fff;
+}
