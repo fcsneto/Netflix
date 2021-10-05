@@ -1,2 +1,2 @@
-# Netflix
- Interface da netflix
+# PodFlix
+ Interface da netflix, porém voltado a podcasts
