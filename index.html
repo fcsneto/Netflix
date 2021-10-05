@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <title>NETFLIX CLONE</title>
+
+    <!--Owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+    <!-- Responsividade -->
+    <link rel="stylesheet" href="/style/responsive.css">
+
+    <title>PODFLIX</title>
 </head>
 <body>
     <header>
@@ -13,20 +20,109 @@
             <H2 class="logo">PODFLIX</H2>
             <nav>
                 <a href="#">Inicio</a>
-                <a href="#">Curtas</a>
-                <a href="#">Clipes</a>
-                <a href="#">Documentários</a>
+                <a href="#">Cortes</a>
+                <a href="#">Integras</a>
+                <a href="#">Animações</a>
             </nav>
         </div>
-        <main>
-            <div class="conteudo-principal">
-                <div class="container">
-                    <h3 class="titulo">
-                        S
-                    </h3>
+    </header>
+    <main>
+        <div class="conteudo-principal">
+            <div class="container">
+                <h3 class="titulo">
+                    Flow Podcast
+                </h3>
+                <p class="descricao">
+                    Conheça o podcast que mudou o canário de podcasts brasileiro.
+                </p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
                 </div>
             </div>
-        </main>
-    </header>
+        </div>
+    </main>
+
+    <div class="carrosel-content">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="aspect-ratio">
+                    <div class="item-content"
+                            style="background-image:
+                            linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0.9)),
+                            url(/img/flow-podcast.jpg);">
+                        <p class="novosEpisodios">Novos Episódios</p>
+                        <div class="info">
+                            <h4>Flow Podcast</h4>
+                            <p>X Episódios</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="aspect-ratio">
+                    <div class="item-content"
+                            style="background-image:
+                            linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0.9)),
+                            url(/img/podpah.jpg);">
+                        <div class="info">
+                            <h4>Podpah</h4>
+                            <p>X Episódios</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="aspect-ratio">
+                    <div class="item-content"
+                            style="background-image:
+                            linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0.9)),
+                            url(/img/vilella.jpg);">
+                        <div class="info">
+                            <h4>Inteligencia Ltda</h4>
+                            <p>X Episódios</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="aspect-ratio">
+                    <div class="item-content"
+                            style="background-image:
+                            linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0.9)),
+                            url(/img/venus.jpg);">
+                        <div class="info">
+                            <h4>Venus Podcast</h4>
+                            <p>X Episódios</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="aspect-ratio">
+                    <div class="item-content"
+                            style="background-image:
+                            linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0.9)),
+                            url(/img/moídacest.jpg);">
+                        <div class="info">
+                            <h4>Moídacast</h4>
+                            <p>X Episódios</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--img class="box-filme" src="/img/flow-podcast.jpg" alt="" srcset=""-->
+    <script src="https://kit.fontawesome.com/2d9799aaeb.js" crossorigin="anonymous"></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
